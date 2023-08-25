@@ -41,7 +41,7 @@ Carlos;
 Daniel;
 Rafaela;
 Laiza;
-Rodrigo;
+Rodrigo Albuquerque da Silva Venetillo;
 ```
 
 ## Direitos Autorais
