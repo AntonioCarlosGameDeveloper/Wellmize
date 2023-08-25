@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 :root{
     --cor-primaria: #222831;
     --cor-hover: #393E46;
@@ -5,4 +7,10 @@
     --cor-terciaria: #EEEEEE;
 
     --fonte-primaria: "Monte Serana", sans-serif;
+}
+
+*{
+    margin: 0;
+
+    font-family: '';
 }
