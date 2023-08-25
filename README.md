@@ -4,10 +4,12 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
+   * [Tecnologias](#tecnologias)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
-   * []
-   * [Tecnologias](#tecnologias)
+   * [Desenvolvedores](#desenvolvedores)
+   * [Direitos Autorais](#direitos-autorais)
+   * [License](#license)
 <!--te-->
 
 ## Sobre
@@ -16,6 +18,13 @@ Esse é o repositório para o site da Wellmize.
 A Wellmize é um sistema de gerenciamento de fluxo e controle de alunos em academias, para conhecer mais acesse nosso site!
 //OBS: As branches de assets e styles servem pra teste de arquivos css e imagens, caso queiram.
 Joguem os arquivos referidos lá, depois caso passem em votação, jogamos eles na main branch.
+```
+
+## Tecnologias
+```bash
+Para a construção da Wellmize utilizamos tecnologias como HTML5, CSS3 e PHP para o núcleo do site;
+Além disso também é feita a utilização de JavaScript e SQL para Banco de Dados e afins;
+Por fim ferramentas como BootStrap e Figma.
 ```
 
 ## Instalação
