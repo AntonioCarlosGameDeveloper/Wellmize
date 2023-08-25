@@ -1,5 +1,15 @@
 # Wellmize
 
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+   * []
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
 ## Sobre
 ```bash
 Esse é o repositório para o site da Wellmize.
