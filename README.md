@@ -33,6 +33,14 @@ Basta baixar os arquivos do github e abrir no seu navegador.
 Caso vá utilizar funcionamentos como PHP e SGBD, rode juntamente com o Apache e MySQL Workbench.
 ```
 
+## Como Usar
+```bash
+Ao entrar no site da Wellmize você irá se deparar com nossa landing page.
+Nessa versão do site você pode ver mais sobre nossos produtos e planos. Caso decida comprar algum
+você poderá depois criar uma conta no site e ao fazer login com ela, as opções administrativas de sistema irão 
+se abrir para você.
+```
+
 ## Desenvolvedores
 ```bash
 Aqui constam os membros participantes que contribuíram para o desenvolvimento da Wellmize em qualquer forma.
