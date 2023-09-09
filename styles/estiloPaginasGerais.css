@@ -20,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/assets/people-working-out-indoors-together-with-dumbbells.jpg) no-repeat;
+    background: url(../assets/people-working-out-indoors-together-with-dumbbells.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -42,7 +42,7 @@ header{
     width: 199px;
     height: 129px;
     /*font-size: 2em;*/
-    background: url(/assets/v1.1.1_WellmizeLogo.png) no-repeat;
+    background: url(../assets/v1.1.1_WellmizeLogo.png) no-repeat;
     border-style: hidden;
     /*color: var(--cor-terciaria);*/
     user-select: none;

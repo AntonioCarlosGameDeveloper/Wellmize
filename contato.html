@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Contato</title>
+    <link rel="stylesheet" href="./styles/estilocontato.css" />
+    <link rel="stylesheet" href="./styles/estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo"></h2>
+      <nav class="navigation">
+        <a href="index.html">Inicio</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="contato.html">Contato</a>
+        <button class="btnLogin-popup">Login</button>
+        <button class="btnRegister-popup">Registrar</button>
+      </nav>
+    </header>
+    <section class="contato">
+      <div class="content">
+      </div>
+      <div class="container">
+        <div class="contatoInfo">
+          <div class="box">
+            <div class="icon"><ion-icon name="location"></ion-icon></div>
+            <div class="text">
+              <h2>Endereço</h2>
+              <p>Rua José Peres, 558 - Centro, Leopoldina - MG, 36700-000</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><ion-icon name="call"></ion-icon></div>
+            <div class="text">
+              <h2>Telefone</h2>
+              <p>(32)3449-2300</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><ion-icon name="mail"></ion-icon></div>
+            <div class="text">
+              <h2>E-mail</h2>
+              <p>contatowellmize@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contatoformulario">
+          <form>
+            <h3>Tem alguma dúvida? Mande-nos uma mensagem!</h3>
+            <div class="inputBox">
+              <input
+                placeholder="Nome completo"
+                type="text"
+                name=""
+                required=""
+              />
+            </div>
+            <div class="inputBox">
+              <input placeholder="E-mail" type="text" name="" required="" />
+            </div>
+            <div class="inputBox">
+              <textarea
+                placeholder="Digite sua mensagem"
+                required="required"
+              ></textarea>
+            </div>
+            <div class="inputBox">
+              <button class="buttonInput" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./js/script.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
