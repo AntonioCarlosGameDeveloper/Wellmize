@@ -289,3 +289,46 @@ header{
 .login-register p a:hover{
     text-decoration: underline;
 }
+
+.about{
+    display: flex;
+    justify-content:center;
+    background-size: cover;
+}
+
+.about-box{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(
+        hsl(217 10% 25% / 0.4), hsl(217 10% 25% / 1)
+    );
+    color: #EEEEEE;
+    border-radius: 2px;
+    margin: 150px;
+    margin-top: 350px
+
+}
+
+.about-title{
+    padding-top: 20px;
+    text-align: center;
+}
+.about-body{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.button{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 5px;
+    background-color: #F68B27;
+    color: hsl(217 10% 25%);
+    border-radius: 2px;
+}
+
