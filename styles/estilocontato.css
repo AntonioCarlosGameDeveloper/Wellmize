@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+:root{
+    --cor-primaria: #222831;
+    --cor-hover: #393E46;
+    --cor-secundaria: #F68B27;
+    --cor-terciaria: #EEEEEE;
+
+    --fonte-primaria: "Crimson Text", Helvetica;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Crimson Text", Helvetica;
+
+}
+
+.contato {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../assets/imagemteladecontato.jpg);
+  background-size: cover;
+}
+
+.contato .content {
+  height: 100vh;
+  max-width: 800px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contato .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.content h2 {
+  font-size: 40px;
+}
+
+.container {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.container .contatoInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contatoInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contatoInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #f68b27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contatoInfo .box .text {
+  margin-left: 10px;
+  display: flex;
+  font-size: 24px;
+  color: #f68b27;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contatoInfo .box .text h2 {
+  margin-left: 10px;
+  display: flex;
+  font-size: 21px;
+  color: #f68b27;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.container .contatoInfo .box .text p {
+  margin-left: 10px;
+  display: flex;
+  font-size: 16px;
+  color: #ffffff;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.contatoformulario {
+  width: 40%;
+  padding: 40px;
+  background: rgba(246, 139, 39, 0.9);
+  border-radius: 8px;
+}
+
+.contatoformulario > form > h3 {
+  font-family: "Poppins", sans-serif;
+  color: #0f0f0f;
+  font-weight: 700;
+}
+
+.contatoformulario .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contatoformulario .inputBox input,
+.contatoformulario .inputBox textarea {
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+  color: #000;
+}
+
+.inputBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox > input[type="submit"] {
+  border: none !important;
+}
+
+.buttonInput {
+  width: 100px;
+  background: #f68b27;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: 1s filter;
+}
+
+.buttonInput:hover {
+  filter: brightness(0.6);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .container .contatoInfo {
+    width: 100%;
+  }
+
+  .contatoformulario {
+    width: 100%;
+  }
+
+  .contato {
+    padding: 20px;
+  }
+}
