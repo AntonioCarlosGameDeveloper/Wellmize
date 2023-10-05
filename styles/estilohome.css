@@ -23,7 +23,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--fonte-secundaria);
-    background: url(../assets/young-woman-exercising-with-headphones-gym-generated-by-ai.jpg) no-repeat;
+    background: url(../assets/jovem-se-exercitando-com-fones-de-ouvido-no-ginasio-gerado-por-ia.jpg) no-repeat;
     background-size: cover; /* Escala a imagem dentro do container */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Optional: Deixa a imagem fixado durante o processo de scroll pela página */
