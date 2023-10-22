@@ -17,7 +17,7 @@
 }
 
 body{
-    background: url(../assets/jovem-se-exercitando-com-fones-de-ouvido-no-ginasio-gerado-por-ia.jpg);
+    background-image: url(../assets/jovem-se-exercitando-com-fones-de-ouvido-no-ginasio-gerado-por-ia.jpg);
     color: #514b64;
 }
 
@@ -47,5 +47,41 @@ body{
 .text-uppercase{
     letter-spacing: 0.3rem;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+      height: 200vh;
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+    .container {
+      height: 250vh;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .container {
+      height: 235vh;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .container {
+      height: 270vh;
+    }
+  }
+
+  @media screen and (max-height: 800px) and (max-width: 280px){
+    .container {
+      height: 360vh;
+    }
+  }
+
+  @media screen and (max-height: 560px) and (max-width: 260px){
+    .container {
+      height: 500vh;
+    }
+  }
 
 
