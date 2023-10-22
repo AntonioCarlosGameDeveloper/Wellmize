@@ -1,57 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,
-    initial-scale="1.0>
-    <title>Wellmize - Sobre</title>
-    <link rel="stylesheet" href="./styles/estiloSobre.css">
+	<meta charset="UTF-8">
+	<title>Sobre a Wellmize</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 </head>
 <body>
-    <main class="cards">
-        <section class="card">
-            <h3>Quem nós somos</h3>
-            <br>
-            <span>Nós somos uma empresa que viza melhorar o atendimento
-                ao cliente a partir de uma ferramenta de gestão de fluxo
-                eficáz 
-            </span>
-            <br><br>
-            <div class="button-conteiner">
-                <button class="button">Saiba mais ...</button>
-            </div>   
-        </section>
-        <section class="card">
-            <h3>O que nós fazemos</h3>
-            <br>
-            <span>Nós substituimos as catracas de sua academia, implan
-                tando uma maneira inovadora, eficiente e barata de 
-                catraca
-            </span>
-            <br><br>
-            <div class="button-conteiner">
-                <button class="button">Saiba mais ...</button>
-            </div>   
-        </section>
-        <section class="card">
-            <h3>Serviços</h3>
-            <br>
-            <span>Nos oferecemos três tipos de serviços diferentes.<br>
-                    Venha conhecer!
-            </span>
-            <br><br><br><br>
-            <div class="button-conteiner">
-                <button class="button">Saiba mais ...</button>
-            </div>        
-            </section>
-    </main>
-
-    <script src="./js/script.js"></script>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>  <!-- Esses dos scripts sendo puxados são o IONICicons, que usamos pra icones-->
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="/assets/background-gym-image.jpg">
+				<div class="carousel-caption">
+					<h5 class="animated fadeInDown" style="animation-delay: 1s">Quem nós somos</h5>
+					<p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Nós somos uma empresa que viza melhorar o atendimento
+						ao cliente a partir de uma ferramenta de gestão de fluxo
+						eficáz </p>
+					<button type="button" class="btn btn-warning btn-lg rounded-pill animated fadeInUp" style="background-color: #f68b27; animation-delay: 3s; border: none;">leia mais</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="/assets/group-young-people-training-gym-indoors-maintaining-sportive-lifestyle.jpg">
+				<div class="carousel-caption">
+					<h5 class="animated fadeInDown" style="animation-delay: 1s">O que nós fazemos</h5>
+					<p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Nós substituimos as catracas de sua academia, implan
+						tando uma maneira inovadora, eficiente e barata de 
+						catraca</p>
+					<button type="button" class="btn btn-warning btn-lg rounded-pill animated fadeInUp" style="background-color: #f68b27; animation-delay: 3s; border: none;">leia mais</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="/assets/imagemteladecontato.jpg">
+				<div class="carousel-caption">
+					<h5 class="animated fadeInDown" style="animation-delay: 1s">Serviços</h5>
+					<p class="animated fadeInUp d-none d-md-block" style="animation-delay: 2s">Nos oferecemos três tipos de serviços diferentes.<br>
+						Venha conhecer!</p>
+					<button type="button" class="btn btn-warning btn-lg rounded-pill animated fadeInUp" style="background-color: #f68b27; animation-delay: 3s; border: none;">leia mais</button>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js">
+	</script>
 </body>
-
 </html>
