@@ -110,13 +110,13 @@
 .contatoformulario {
   width: 40%;
   padding: 40px;
-  background: rgba(246, 139, 39, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 }
 
 .contatoformulario > form > h3 {
   font-family: "Poppins", sans-serif;
-  color: #0f0f0f;
+  color: #ffffff;
   font-weight: 700;
 }
 
