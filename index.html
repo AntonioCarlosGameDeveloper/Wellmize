@@ -16,8 +16,8 @@
         <a onclick="onOpenPage('sobre.html')">Sobre</a>
         <a onclick="onOpenPage('servicos.html')">Serviços</a>
         <a onclick="onOpenPage('contato.html')">Contato</a>
-        <a href="login.html">Login</a>
-        <a href="registro.html">Registrar-se</a>
+        <a class="login" href="login.html" target="_blank">Login</a>
+        <a class="register" href="registro.html" target="_blank">Registrar-se</a>
       </nav>
       <button onclick="handleOpenMenu()" class="buttonOpenMenu">
         <img id="menu-icon" src="./assets/menu.svg" alt="menu" />
@@ -91,7 +91,7 @@
           </p>
 
           <div id="input_group">
-            <input type="email" id="email" />
+            <input type="email" id="email" style="background: #212429;"/>
             <button>
               <i class="fa-regular fa-envelope"
                 ><ion-icon name="send"></ion-icon
@@ -105,7 +105,6 @@
     </footer>
   </body>
 
-  <script src="./js/script.js"></script>
   <script src="./js/control.js"></script>
 
   <script
