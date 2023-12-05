@@ -13,6 +13,8 @@ window.onscroll = () => {
 
 function onOpenPage(page) {
   document.getElementById("main").src = page;
+  if(page === "dashboard.html") 
+    document.getElementById('header-page').style.display = "none";
   handleOpenMenu();
 }
 
