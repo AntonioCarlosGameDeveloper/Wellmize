@@ -35,7 +35,7 @@
             <ul class="list-unstyled px-2">
                 <li class=""><a href="index-php.php" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-home"></i> Menu</a></li>
                 <li class=""><a href="sobre.html" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-list"></i> Projetos</a></li>
-                <li class=""><a href="contato.html" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-comment"></i> Mensagens</a></li>
+                <li class=""><a href="contato.php" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-comment"></i> Mensagens</a></li>
                 <li class=""><a href="servicos.html" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-envelope-open-text"></i> Serviços</a></li>
                 <li class=""><a href="login-php.php" class=" text-decoration-none px-3 py-2 d-block"><i class="fal fa-users"></i> Usuários</a></li>
                 <li class=""><a href="sair.php" class="btn btn-danger">Sair</a>

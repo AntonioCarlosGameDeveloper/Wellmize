@@ -15,7 +15,7 @@
         <a onclick="onOpenPage('home.html')">Inicio</a>
         <a onclick="onOpenPage('sobre.html')">Sobre</a>
         <a onclick="onOpenPage('servicos.html')">Serviços</a>
-        <a onclick="onOpenPage('contato.html')">Contato</a>
+        <a onclick="onOpenPage('contato.php')">Contato</a>
         <a onclick="onOpenPage('dashboard.html')">Dashboard</a>
         <a class="login" href="login-php.php" target="_blank">Login</a>
         <a class="register" href="registro-php.php" target="_blank">Registrar-se</a>
